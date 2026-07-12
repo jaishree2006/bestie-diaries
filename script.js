@@ -1,7 +1,11 @@
 function startJourney(){
 
-document.querySelector(".hero").style.display="none";
+    let music = document.getElementById("bgMusic");
 
-document.getElementById("content").style.display="block";
+    music.play();
+
+    document.querySelector(".hero").style.display = "none";
+
+    document.getElementById("content").style.display = "block";
 
 }
