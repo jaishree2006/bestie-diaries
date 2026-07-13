@@ -447,6 +447,7 @@ height:auto;
 
 width:90%;
 
+  
 height:auto;
 
 }
@@ -456,6 +457,7 @@ height:auto;
 button{
 
 padding:14px 25px;
+  
 
 font-size:16px;
 
@@ -463,3 +465,33 @@ font-size:16px;
 
 
 }
+.hero h1{
+
+color:#d4af37;
+
+text-shadow:
+0 0 10px black,
+0 0 20px black;
+
+}
+
+
+.hero p{
+
+color:#ffffff;
+
+font-size:20px;
+
+text-shadow:
+0 0 8px black;
+
+}
+
+
+.hero{
+
+position:relative;
+
+z-index:1;
+
+  }
