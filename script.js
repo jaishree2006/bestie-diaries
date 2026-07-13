@@ -18,3 +18,11 @@ function startJourney(){
     document.getElementById("content").style.display="block";
 
 }
+function showLetter(){
+
+document.getElementById("secretMessage").innerHTML =
+"Happy Birthday My Bestie 💗 <br><br>" +
+"Thank you for all the beautiful memories. " +
+"May your future be filled with happiness, success and endless smiles ✨";
+
+}
